@@ -6,7 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chris Scholte</title>
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/styles.css" />
 
     <script
@@ -18,24 +30,43 @@
     <script src="scripts/main.js"></script>
   </head>
   <body>
-      <div id="logo">
-        <div>ChrisScholte</div>
-        <a href="test">TEST</a>
-      </div>
-      <nav>
-        <header>
-
-        </header>
+    <header>
+      <a href="/"><p class="header-title">ChrisScholte</p></a>
+      <nav class="nav-bar">
+        <ul class="nav-list">
+          <li><a href="/" class="nav-link">Home</a></li>
+          <li><a href="/JS30/" class="nav-link">JS30</a></li>
+          <li><a href="#tools" class="nav-link">Biem</a></li>
+        </ul>
       </nav>
-      
+    </header>
+
     <main>
-      
-      <aside>
-
-      </aside>
+      <section id="hero">
+        <div class="profile">
+          <img src="/images/apple-vector.jpg" class="profile-image" />
+          <div class="profile-text">
+            <h1 class="profile-title">Chris Scholte</h1>
+            <p class="profile-info">
+              Lorem ipsum dolor sit amet adipiscing bibendum sem orci tempus
+              aliquet gravida, orci amet iaculis aptent blandit quam accumsan
+              donec in facilisis,
+            </p>
+            <a href="" class="profile-link">Learn more <i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </section>
+      <section id="tools">
+        <h1>Chris Scholte</h1>
+      </section>
+      <section id="socials">
+        <ul class="social-icons">
+          <li><a><i class="fa-brands fa-github social-icon"></i></a></li>
+          <li><a><i class="fa-brands fa-linkedin social-icon"></i></a></li>
+          <li><a><i class="fa-regular fa-paper-plane social-icon"></i></a></li>
+        </ul>
+      </section>
     </main>
-    <footer>
-
-    </footer>
+    <footer></footer>
   </body>
 </html>
